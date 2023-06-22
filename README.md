@@ -80,9 +80,9 @@ Debido a que en paralelo otro equipo de desarrollo construirá la interfaz gráf
 |-------------|-------------|-------------|
 | GET         | customers/  | Retorna todos los clientes, si la petición es exitosa, envía un código de estado HTTP 200 (OK). |
 | POST        | customer/   | Crea un nuevo cliente, la solicitud debe incluir los datos del nuevo cliente dentro del cuerpo (body). Si el cliente es creado retorna los datos del nuevo cliente y envía un código de estado HTTP 201 (Created). |
-| GET         | customer/(<id>) | Retorna un cliente basado en su id asociado, si el cliente no existe, envía un código de estado HTTP 404 (Not Found), en caso de ser encontrado, retorna el cliente y envía un código de estado HTTP 200 (OK). |
-| PUT         | customer/(<id>) | Actualiza un cliente existente, si el cliente no puede ser encontrado, envía un código de estado HTTP 404 (Not Found), en caso de ser encontrado y actualizado, retorna el cliente actualizado y envía un código de estado HTTP 200 (OK). |
-| DELETE      | customer/(<id>) | Elimina un cliente basado en su id asociado, si el cliente no existe, envía un código de estado HTTP 404 (Not Found), en caso de ser encontrado y eliminado, envía un código de estado HTTP 204 (No Content). |
+| GET         | customer/id | Retorna un cliente basado en su id asociado, si el cliente no existe, envía un código de estado HTTP 404 (Not Found), en caso de ser encontrado, retorna el cliente y envía un código de estado HTTP 200 (OK). |
+| PUT         | customer/id | Actualiza un cliente existente, si el cliente no puede ser encontrado, envía un código de estado HTTP 404 (Not Found), en caso de ser encontrado y actualizado, retorna el cliente actualizado y envía un código de estado HTTP 200 (OK). |
+| DELETE      | customer/id | Elimina un cliente basado en su id asociado, si el cliente no existe, envía un código de estado HTTP 404 (Not Found), en caso de ser encontrado y eliminado, envía un código de estado HTTP 204 (No Content). |
 
 ## Consideraciones:
 
