@@ -11,7 +11,7 @@ Este proyecto es una API REST desarrollada con Django y MongoDB, que sirve como 
 
 1. Clonar el repositorio:
    
-   git clone <URL del repositorio>
+   git clone https://github.com/Pablobw/BD_Avanzadas.git
 
 
 2. Configurar el entorno virtual:
