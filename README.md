@@ -18,7 +18,7 @@ Este proyecto es una API REST desarrollada con Django y MongoDB, que sirve como 
 - Navega hasta la carpeta raíz del proyecto.
 - Crea un entorno virtual ejecutando:
   ```
-  python -m venv myenv
+  python3 -m venv myenv
   ```
 - Activa el entorno virtual:
   - En Windows:
